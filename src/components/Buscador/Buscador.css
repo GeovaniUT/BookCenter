@@ -1,0 +1,18 @@
+.formulario-busqueda {
+    width: 100%;
+    max-width: 680px;
+}
+
+.elemento-formulario-busqueda {
+    padding: 1.4rem 2.8rem;
+    border-radius: 3.8rem;
+}
+
+.elemento-formulario-busqueda .control-formulario {
+    font-size: 2rem;
+    padding: 0.6rem;
+}
+
+.elemento-formulario-busqueda .control-formulario::placeholder {
+    opacity: 0.9;
+}
