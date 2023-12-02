@@ -1,28 +1,46 @@
 import React from 'react';
-import "./SobreNosotros.css";
-import aboutImg from "../../images/about-img.jpg";
+import './SobreNosotros.css'; 
+// import libraryImage from 'C:\Users\geova\OneDrive\Documentos\clone-books\Libros\src\images\Biblioteca-montserrat.jpg'
 
-const SobreNosotros = () => {
+const AboutUs = () => {
   return (
-    <section className='about'>
-      <div className='container'>
-        <div className='section-title'>
-          <h2>Sobre Nosotros</h2>
-        </div>
-
-        <div className='about-content grid'>
-          <div className='about-img'>
-            <img src = {aboutImg} alt = "" />
-          </div>
-          <div className='about-text'>
-            <h2 className='about-title fs-26 ls-1'>Nuestra Historia</h2>
-            <p className='fs-17'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos consequuntur vero commodi provident maiores, iusto atque corrupti voluptate vel sequi consectetur unde aliquam corporis saepe animi non, tempora reiciendis molestias sed laudantium dolores. Assumenda aperiam fuga quo voluptate commodi ullam aliquam expedita voluptas delectus.</p>
-            <p className='fs-17'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dicta, possimus inventore eveniet atque voluptatibus repellendus aspernatur illo aliquam dignissimos illum. Commodi, porro omnis dolore amet neque modi quas eum!</p>
-          </div>
-        </div>
+    <div className="aboutUsContainer">
+      {/* <div className="libraryImage">
+        <img src={libraryImage} alt="Biblioteca" />
+      </div> */}
+      <div className="informationContainer">
+        <h2>Nuestra Historia</h2>
+        <p>
+          Book Center comenzó como un sueño compartido por nuestros fundadores: Marvin Adan, Giovani Guzman, Edwin Avila y Sergio Canul. Nos unimos con la visión de romper las barreras del idioma y hacer que la información sea accesible para todos.
+        </p>
+        <h2>Nuestro Equipo</h2>
+        <ul>
+          <li>Marvin Adan - Co-Fundador</li>
+          <li>Giovani Guzman - Co-Fundador</li>
+          <li>Edwin Avila - Co-Fundador</li>
+          <li>Sergio Canul - Co-Fundador</li>
+        </ul>
+        <h2>Misión</h2>
+        <p>Proporcionar acceso universal y fácil a una amplia gama de recursos de conocimiento y aprendizaje digital.</p>
+        <h2>Visión</h2>
+        <p>Ser reconocida como una plataforma líder en la provisión de recursos educativos digitales.</p>
+        <h2>Valores</h2>
+        <ul>
+          <li>Accesibilidad</li>
+          <li>Innovación</li>
+          <li>Integridad</li>
+          {/* ...más valores */}
+        </ul>
+        <h2>Código de Ética</h2>
+        <ul>
+          <li>Respeto a la Propiedad Intelectual</li>
+          <li>Privacidad</li>
+          <li>Confidencialidad</li>
+          {/* ...más códigos de ética */}
+        </ul>
       </div>
-    </section>
-  )
-}
+    </div>
+  );
+};
 
-export default SobreNosotros
+export default AboutUs;

@@ -21,7 +21,7 @@ const Registro = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:8083/registrarUsuario', {
+      const response = await fetch('http://localhost:9001/registrarUsuario', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -62,7 +62,7 @@ const Registro = () => {
             <input
               type="text"
               name="full_name"
-              value={formData.full_name}
+              value={formData.user}
               onChange={handleChange}
               placeholder="Full Name"
               required
@@ -97,7 +97,7 @@ const Registro = () => {
         <p className="create-account-link">
           Ya Tienes Una Cuenta?{' '}
           <a href="/Login" className="text-blue-500 hover:text-blue-700 font-semibold">
-            Login
+            Acceso
           </a>
         </p>
       </div>

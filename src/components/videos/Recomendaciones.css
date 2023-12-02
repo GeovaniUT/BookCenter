@@ -1,0 +1,56 @@
+/* BookRecommendations.css */
+
+iframe {
+    max-width: 100%;
+    border: none;
+}
+
+.next {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+ .next button:hover {
+    background-color: #0056b3;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-wrapper {
+    text-align: center; /* Asegura que todo dentro del wrapper esté centrado */
+}
+
+.video-frame {
+    width: 700px;
+    height: 515px;
+    max-width: 100%;
+    border: none;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.next {
+    /* margin-top: 10px;
+    padding: 10px 20px;
+     */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ .next button:hover {
+    background-color: #0056b3;
+}

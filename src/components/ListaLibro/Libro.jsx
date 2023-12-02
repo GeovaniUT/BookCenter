@@ -9,7 +9,7 @@ const Libro = (Libros) => {
         <img src = {Libros.cover_img} alt = "cover" />
       </div>
       <div className='book-item-info text-center'>
-        <Link to = {`/book/${Libros.id}`} {...Libros}>
+        <Link to = {`/bookOne/${Libros.id}`} {...Libros}>
           <div className='book-item-info-item title fw-7 fs-18'>
             <span>{Libros.title}</span>
           </div>

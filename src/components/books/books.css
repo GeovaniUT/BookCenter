@@ -1,0 +1,56 @@
+
+
+
+.views{
+    display: flex;
+}
+.dataBook{
+    padding-top: 40px;
+    font-size: 24px;
+    padding-left: 30px;
+
+}
+.viewBook{
+    /* margin-left: 50px;
+    margin-top: 30px; */
+    padding: 50px;
+    padding-bottom: 200px;
+    display: flex;
+    
+}
+.bookItem{
+    height: 350px;
+    width: 230px;
+    border-radius: 5px;  
+}
+
+.read{
+
+    border-style: none;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(185, 236, 134);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+.save{
+
+    border-style: none;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    background-color: rgb(220, 107, 107);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.style {
+    font-weight: bolder;
+}
+

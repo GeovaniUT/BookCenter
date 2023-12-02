@@ -1,0 +1,30 @@
+.slider-items{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.slider{
+    display: flex;
+    overflow: scroll;
+    overflow: hidden;
+    background-color: black;
+}
+
+/* .slider-items img{
+
+} */
+
+.prox{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+
+
+}
+
